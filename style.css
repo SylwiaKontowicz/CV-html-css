@@ -1,36 +1,141 @@
 body {
-    background: #1f3125e0;
-    font-family: "Lora", serif;
-}
-
-li {
-    color: rgb(3, 37, 3);
-}
-
-h2 {
-    color: rgb(87, 7, 7);
+    background: #2b2e34;
+    font-family: "Montserrat", sans-serif;
 }
 
 .wrapper {
-    background: #99c7a8d5;
+    background: #f5f7fa;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    width: 1180px;
+    width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0px;
     box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
-.mainwrapper {
+aside {
+    width: 480px;
+    background: #1e2939;
+}
+
+.cvphoto {
+    margin-top: 25px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-main {s
-    margin: 10px;
-    padding: 20px;
+.h2nd {
+    color: white;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.contactlinks {
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+    text-decoration-line: none;
+}
+.list2nd {
+    color: #fb6d3a;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position: inside;
 }
 
-img {
-    box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.1);
+.list2nditem {
+    color: white;
+}
+
+.contactblock {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.techblock {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+main {
+    width: 100%;
+    padding-left: 88px;
+    padding-top: 102px;
+    padding-right: 88px;
+    padding-bottom: 102px;
+}
+
+.maindesc {
+    width: 600px;
+}
+
+h1 {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.analytic {
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.desc {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.links {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: none;
+    padding: 0;
+    list-style-position: inside;
+}
+
+.hmain {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.unijob {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.orange {
+    color: #fb6d3a;
+}
+
+.time {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.info {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 700px;
 }
